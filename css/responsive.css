@@ -1,0 +1,392 @@
+/*
+@media (max-width:1525px){
+	.testimonials_area .owl-prev, .testimonials_area .owl-next {
+		right: 0px; 
+	}
+}
+*/
+@media (max-width:1199px){
+	/* Main Menu Area css
+	============================================================================================ */
+   .header_area .navbar .search {
+		margin-left: 30px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	
+	/* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area {
+		min-height: 700px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 700px;
+	}
+	.home_banner_area .banner_inner .banner_content {
+		margin-top: 0px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.dontation_item .media .d-flex {
+		padding-left: 16px;
+	}
+	.dontation_item .media .d-flex::before {
+		display: none;
+	}
+	.dontation_item .media .media-body h4 {
+		font-size: 16px;
+		margin-bottom: 12px;
+	}
+	.event_item .media .d-flex {
+		padding-right: 12px;
+	}
+	.testimonials_inner .testi_left_text h4 {
+		font-size: 28px;
+	}
+}
+
+@media (max-width:991px){
+	/* Main Menu Area css
+	============================================================================================ */
+    .navbar-toggler {
+        border: none;
+        border-radius: 0px;
+        padding: 0px;
+        cursor: pointer;
+        margin-top: 27px;
+        margin-bottom: 23px;
+    }
+	.header_area .navbar {
+		background: #fff;
+	}
+    .navbar-toggler[aria-expanded="false"] span:nth-child(2) {
+		opacity: 1;
+	}
+	.navbar-toggler[aria-expanded="true"] span:nth-child(2) {
+		opacity: 0;
+	}
+	.navbar-toggler[aria-expanded="true"] span:first-child {
+		transform: rotate(-45deg);
+		position: relative;
+		top: 7.5px;
+	}
+	.navbar-toggler[aria-expanded="true"] span:last-child {
+		transform: rotate(45deg);
+		bottom: 6px;
+		position: relative;
+	}
+	.navbar-toggler span{
+		display: block;
+		width: 25px;
+		height: 3px;
+		background: #27c9c6;
+		margin: auto;
+		margin-bottom: 4px;
+		transition: all 400ms linear;
+		cursor: pointer;
+	}
+    .navbar .container{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .nav{
+        padding: 0px 0px;
+    }
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 117px;
+	}
+    .header_top .nav{
+        padding: 0px;
+    }
+    .header_area .navbar .nav .nav-item .nav-link{
+        line-height: 40px;
+        margin-right: 0px;
+        display: block;
+		border-bottom: 1px solid #ededed33;
+		border-radius: 0px;
+    }
+    .header_area .navbar .search{
+        margin-left: 0px;
+    }
+	.header_area .navbar-collapse{
+		max-height: 340px;
+		overflow-y: scroll;
+	}
+	.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+		padding: 0px 15px;
+	}
+	.header_area .navbar .nav .nav-item {
+		margin-right: 0px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	/* Blog page Area css
+	============================================================================================ */
+	.categories_post img{
+        width: 100%;
+    }
+	.categories_post {
+		max-width: 360px;
+		margin: 0 auto;
+	}
+	.blog_categorie_area .col-lg-4{
+        margin-top: 30px;
+    }
+    .blog_area{
+        padding-bottom: 80px;
+    }
+    .single-post-area .blog_right_sidebar{
+        margin-top: 30px;
+    }
+	/* End Blog page Area css
+	============================================================================================ */
+	
+	/* Contact Page Area css
+	============================================================================================ */
+	.contact_info{
+		margin-bottom: 50px;
+	}
+	/* End Contact page Area css
+	============================================================================================ */
+	.donation_inner .col-lg-4{
+		margin-bottom: 30px;
+	}
+	.home_banner_area .donation_inner{
+		margin-bottom: -30px;
+	}
+	.home_banner_area .dontation_item{
+		max-width: 350px;
+		margin: auto;
+	}
+	.welcome_inner .welcome_img img {
+		margin-top: 0px;
+	}
+	.welcome_inner .welcome_img {
+		margin-left: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		margin-top: 30px;
+		background: transparent;
+	}
+	.feature_inner .col-lg-4{
+		margin-bottom: 30px;
+	}
+	.feature_inner{
+		margin-bottom: -30px;
+	}
+	.event_item .media .d-flex {
+		padding-right: 30px;
+	}
+	.testimonials_inner .testi_left_text {
+		margin-bottom: 30px;
+		margin: 0px auto 30px;
+		text-align: center;
+	}
+	.feature_item {
+		max-width: 360px;
+		margin: auto;
+		padding: 25px 30px 25px 30px;
+	}
+	/* Footer Area css
+	============================================================================================ */
+	.footer-area .col-sm-6{
+		margin-bottom: 30px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+	.event_d_inner .right_text {
+		padding-left: 0px;
+		margin-top: 30px;
+	}
+	.dn_left_text{
+		margin-bottom: 50px;
+	}
+}
+@media (max-width:767px){
+	/* Blog Page Area css
+	============================================================================================ */
+    .blog_banner .banner_inner .blog_b_text h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.blog_info.text-right{
+		text-align: left !important;
+		margin-bottom: 10px;
+	}
+	/* End Blog Page Area css
+	============================================================================================ */
+	.donation_area {
+		margin-top: 50px;
+	}
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 30px;
+	}
+	.home_banner_area .banner_inner .banner_content p br {
+		display: none;
+	}
+	.causes_item {
+		max-width: 360px;
+		margin: auto;
+	}
+	.causes_item .causes_text {
+		padding: 30px 20px 40px 20px;
+	}
+	.feature_item {
+		padding: 30px 35px 30px 35px;
+	}
+	/* Footer Area css
+	============================================================================================ */
+	.footer-bottom{
+		text-align: center;
+	}
+	.footer-bottom .footer-social {
+		text-align: center;
+		margin-top: 15px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+}
+@media (max-width:575px){
+	.top_menu {
+		display: none;
+	}
+	.header_area + section, .header_area + row, .header_area + div {
+		margin-top: 71px;
+	}
+    /* Home Banner Area css
+	============================================================================================ */
+	.home_banner_area .banner_inner .banner_content h2 {
+		font-size: 28px;
+	}
+	.home_banner_area {
+		min-height: 500px;
+	}
+	.home_banner_area .banner_inner {
+		min-height: 500px;
+	}
+	.blog_banner .banner_inner .blog_b_text {
+		margin-top: 0px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.p_120 {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.news_widget {
+		padding-left: 0px;
+	}
+	.news_widget .input-group .sub-btn {
+		right: 42px;
+		position: relative;
+	}
+	.news_widget .input-group input {
+		padding: 0px 48px 0px 15px;
+	}
+	.find_inner .find_text .find_text_inner {
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-top: 0px;
+	}
+	.find_inner .find_text {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+	.main_title h2 {
+		font-size: 25px;
+	}
+	/* Elements Area css
+	============================================================================================ */
+	.sample-text-area {
+		padding: 70px 0 70px 0;
+	}
+	/* End Elements Area css
+	============================================================================================ */
+	
+	/* Blog Page Area css
+	============================================================================================ */
+	.blog_details h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.blog_banner .banner_inner .blog_b_text h2 {
+		font-size: 28px;
+		line-height: 38px;
+	}
+	/* End Blog Page Area css
+	============================================================================================ */
+	/* Footer Area css
+	============================================================================================ */
+	.footer-area {
+		padding: 70px 0px;
+	}
+	/* End End Footer Area css
+	============================================================================================ */
+	
+	.white_title {
+		text-align: center;
+		max-width: 690px;
+		margin: 0px auto 45px;
+	}
+	.white_title h2 {
+		font-size: 28px;
+	}
+	.event_item .media{
+		display: block;
+	}
+	.event_item .media .d-flex {
+		padding-right: 0px;
+	}
+	.event_item .media .media-body {
+		margin-top: 20px;
+	}
+	.gallery_item .gallery_img {
+		max-width: 360px;
+		margin: auto;
+	}
+	.event_main_area .event_item{
+		max-width: 263px;
+		margin: auto;
+	}
+}
+
+@media (max-width:480px){
+	/* Main Menu Area css
+	============================================================================================ */
+	.header_area .navbar-collapse{
+		max-height: 250px;
+	}
+	/* End Main Menu Area css
+	============================================================================================ */
+	
+	/* Home Banner Area css
+	============================================================================================ */
+    .home_banner_area .banner_inner .banner_content {
+		padding: 30px 15px;
+		margin-top: 0px;
+	}
+	.banner_content .main_btn {
+		display: block;
+		margin-bottom: 15px;
+	}
+	.banner_content .white_btn {
+		display: block;
+	}
+	.home_banner_area .banner_inner .banner_content h3 {
+		font-size: 24px;
+	}
+	/* End Home Banner Area css
+	============================================================================================ */
+	.banner_area .banner_inner .banner_content h2 {
+		font-size: 32px;
+	}
+	/* Blog Page Area css
+	============================================================================================ */
+	.comments-area .thumb {
+		margin-right: 10px;
+	}
+	
+	/* End Blog Page Area css
+	============================================================================================ */
+}

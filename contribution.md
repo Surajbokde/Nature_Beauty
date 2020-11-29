@@ -1,6 +1,6 @@
 # Nature_Beauty (WEB APP) 
 
-**Where all NGO can make their profile, And Raise the funds for our nature.**
+
 
 ---
 ![GitHub custom open for Contribution](https://img.shields.io/static/v1?label=Open%20For&message=Contribution&color=%3CCOLOR%3E)

@@ -808,6 +808,7 @@ button:focus {
 .wel_item {
   border: 1px solid #eeeeee;
   padding: 30px 25px;
+  
 }
 
 .wel_item i {
@@ -829,6 +830,20 @@ button:focus {
   font-family: "Poppins", sans-serif;
   color: #777777;
   margin-bottom: 0px;
+}
+
+.wel_item:hover{
+  transition: .5s ease;
+  box-shadow:
+  1px 1px #373737,
+  2px 2px #373737,
+  3px 3px #373737,
+  4px 4px #373737,
+  5px 5px #373737,
+  6px 6px #373737;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: .5s ease;
 }
 
 /* End Welcome Area css

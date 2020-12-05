@@ -27,6 +27,27 @@ If you're new to contributing and have no idea about working with repositories, 
 
 
 
+- **Fork the Repo and star ( for better reach)** 
+ - `git init` 
+ - `git clone <Https link>`
+ - It will download all file to your desktop
+ - Now make the changes
+ - `git status`
+ - It will show all the changes you made
+ - now add the file by using 
+ - `git add filename` or `git add .`
+ - commit it by meaningful message
+ - `git commit -m "your message"`
+ - now you are ready to push but before that pull all the changes first
+ - `git pull https://github.com/Surajbokde/Nature_Beauty.git`
+ - now push the changes
+ - `git push origin`
+ - now make a pull request and add screenshot of changes you did.
+ 
+
+
+
+
 ### So, what are you waiting for? Begin contributing now! :fire: :rocket:
 
 #### All the Best!🥇

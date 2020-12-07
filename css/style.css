@@ -2503,7 +2503,7 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: ;
+  /* background: ; */
 }
 
 .testimonials_inner .testi_left_text {
@@ -4312,10 +4312,19 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*============== contact_area css ================*/
-.mapBox {
-  height: 420px;
-  margin-bottom: 80px;
-}
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
 
 .contact_info .info_item {
   position: relative;
@@ -4351,17 +4360,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact_form .form-group {
-  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+}
+.contact_form .input-group{
+  margin-top: 17px;
+
+}
+.contact_form .input-group .input-group-addon{
+  background-color: #27c9c6;
+  border:none;
+}
+.contact_form .form-control {
+  font-size:13px;
+  color: #999;
+  border:none;
+  border-bottom:1px solid #333;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+
 }
 
-.contact_form .form-group .form-control {
-  font-size: 13px;
-  line-height: 26px;
-  color: #999;
-  border: 1px solid #eeeeee;
-  font-family: "Poppins", sans-serif;
-  border-radius: 0px;
-  padding-left: 20px;
+.contact_form .form-control:hover{
+  border-bottom:1px solid #27c9c6;
+
 }
 
 .contact_form .form-group .form-control:focus {
@@ -4370,33 +4393,35 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.contact_form .form-group .form-control.placeholder {
+.contact_form .form-control.placeholder {
+  color: #999;
+
+}
+
+.contact_form .form-control:-moz-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control:-moz-placeholder {
+.contact_form .form-control::-moz-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control::-moz-placeholder {
+.contact_form .form-control::-webkit-input-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control::-webkit-input-placeholder {
-  color: #999;
-}
-
-.contact_form .form-group textarea {
+.contact_form  textarea {
   resize: none;
 }
 
-.contact_form .form-group textarea.form-control {
-  height: 140px;
+.contact_form textarea.form-control {
+  height: 100px;
 }
 
 .contact_form .submit_btn {
   margin-top: 20px;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 /* Contact Success and error Area css

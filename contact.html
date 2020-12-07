@@ -13,6 +13,8 @@
         <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
         <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
+        <!-- icon -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
@@ -63,7 +65,7 @@
             	<div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background=""></div>
 				<div class="container">
 					<div class="banner_content text-center">
-						<h2>Contact Us</h2>
+						<h2>Contact/Enquiry </h2>
 						<div class="page_link">
 							<a href="#">Home</a>
 							<a href="contact.html">Contact Us</a>
@@ -77,56 +79,48 @@
         <!--================Contact Area =================-->
         <section class="contact_area p_120">
             <div class="container">
-                <div id="mapBox" class="mapBox" 
-                    data-lat="40.701083" 
-                    data-lon="-74.1522848" 
-                    data-zoom="13" 
-                    data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                    data-mlat="40.701083"
-                    data-mlon="-74.1522848">
-                </div>
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="contact_info">
-                            <div class="info_item">
-                                <i class="lnr lnr-home"></i>
-                                <h6>California, United States</h6>
-                                <p>Santa monica bullevard</p>
-                            </div>
-                            <div class="info_item">
-                                <i class="lnr lnr-phone-handset"></i>
-                                <h6><a href="#">00 (123) 4567 890</a></h6>
-                                <p>Mon to Fri 9am to 6 pm</p>
-                            </div>
-                            <div class="info_item">
-                                <i class="lnr lnr-envelope"></i>
-                                <h6><a href="#">example@example.com</a></h6>
-                                <p>Send us your query anytime!</p>
-                            </div>
+                    <div class="col-lg-8">
+                        <!--Google map-->
+                        <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 460px">
+                        <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                     </div>
-                    <div class="col-lg-9">
-                        <form class="row contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name">
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address">
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12 text-right">
-                                <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                            </div>
-                        </form>
+
+                    <div class="col-lg-4">
+                        <div class="card text-center" style="width: 100%;border: 1px solid #eee;box-shadow: 5px 5px 3px #c4c4c4">
+                            <div class="card-body" style="background:#fff;">
+                                <span class="header">
+                                    <h3>GET IN TOUCH</h3>
+                                </span>
+                                <form class="contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                        <div class="input-group">
+                                            <span class="input-group-addon" ><i class="fa fa-user fa-fw" aria-hidden="true" style="color:#fff"></i></span>
+                                            <input class="form-control" name="name" type="text" id="name" placeholder="Name" required>
+                                          </div>
+                                          <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true" style="color:#fff"></i></span>
+                                            <input class="form-control" name="email"type="text" id="email" placeholder="Email" required> 
+                                          </div>
+                                          <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-phone fa-fw" aria-hidden="true" style="color:#fff"></i></span>
+                                            <input class="form-control" name="number"type="tel" id="phone" placeholder="Phone">
+                                          </div>
+                                          <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-tag fa-fw" aria-hidden="true" style="color:#fff"></i></span>
+                                            <input class="form-control" name="subject" type="text" placeholder="Subject">
+                                          </div>
+                                          <div class="input-group">
+                                            <span class="input-group-addon"><i class="fa fa-pencil fa-fw" aria-hidden="true" style="color:#fff"></i></span>
+                                            <textarea class="form-control" name="message" id="message" row="1" placeholder="Message" required></textarea>
+                                          </div>
+                                        <div text-center>
+                                            <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
+                                        </div>  
+                                </form>
+                            </div>   
+                        </div>   
                     </div>
                 </div>
             </div>
@@ -231,9 +225,5 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.form.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/contact.js"></script>
-        <!--gmaps Js-->
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
-        <script src="js/gmaps.min.js"></script>
-        <script src="js/theme.js"></script>
     </body>
 </html>

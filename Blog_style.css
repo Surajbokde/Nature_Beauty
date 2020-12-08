@@ -1,0 +1,202 @@
+
+
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+  
+    
+}
+body
+{   
+    margin-top: 3rem;
+    font-size: xx-large;    
+    overflow: hidden;
+
+    
+}
+h1{
+    display: block;
+    text-align: center;
+    margin-bottom: 6rem;
+    margin: auto;
+    font-weight: bold;
+}
+.container{
+text-align: center;
+display:grid;
+grid-template-columns:repeat(2,auto);
+width: 100px;
+position: relative;
+right: 1rem;
+
+
+
+
+}
+
+.firstlabel
+{    
+    position: relative;
+    left:80%;
+    font-weight: bold;
+    
+}
+   
+#fname
+{   
+    position: relative;
+    height: 3.6rem;
+    width: 36.7rem;
+    left: 115%;
+    top: 0.1rem;
+    font-size: 2rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+
+}
+#lname
+{
+    height: 3.6rem;
+    width: 36.7rem;
+    font-size: 2rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+    
+    
+}
+#ln
+{
+    position: relative;
+    left: 700px;
+    margin-left: 1.5rem;
+    
+}
+.secondlabel
+{
+position: relative;
+right: 35%;
+font-weight: bold;
+}
+#email
+{
+    position: relative;
+    height: 3.6rem;
+    width: 36.7rem;
+    left: 115%;
+    font-size: 2rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+}
+.elabel
+{
+    position: relative;
+    left:77%;
+    font-weight: bold;
+    
+
+}
+#dropdown
+{
+    position: relative;
+    left: 700px;
+    margin-left: 1.5rem;
+    
+}
+#Blog-Type
+{
+    position: relative;
+    left: 2px;
+    width: 37rem;
+    height: 3.6rem;
+    font-size: 1.5rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+  
+}
+.dp
+{
+    font-weight: bold;
+    position: relative;
+right: 35.5%;
+}
+#title
+{
+    height: 3.6rem;
+    width: 77.3rem;
+    font-size: 2rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+}
+#ti
+{
+    position: relative;
+    left:590px;
+}
+.tlabel
+{
+    position: relative;
+    bottom:2.8rem;
+    left: 5.1rem;
+    font-weight: bold;
+}
+#blog
+{
+    position: relative;
+    left: 515px;
+    }
+
+  .ba
+  {
+      position: relative;
+    
+   bottom: 21rem;
+   left: 9.7rem;
+   font-weight: bold;
+
+  }  
+#Blog-Area
+{
+    font-size: 2rem;
+    box-shadow:  0px 30px 100px #B1DAC9;
+    
+}
+button
+{
+    font-size: 1.8rem;
+    position: relative;
+    left: 75rem;
+    padding: 1rem 2rem 1rem 2rem;
+    background-color:#3cc88f;
+    color:#F1F9F6;
+    border-radius: 2rem;
+    border: 0px;
+   
+}
+button:hover
+{
+    color: white;
+    background-color: #52A583;
+    cursor: pointer;
+}
+section
+{
+    position: relative;
+    /* border-bottom:  #B1DAC9 2px solid;
+    border-left:  #B1DAC9 2px solid;
+    border-right:  #B1DAC9 2px solid;
+    border-top: #B1DAC9 2px solid ; */
+    margin-right: 25rem ;
+    margin-left:30rem;
+    box-shadow: 0px 30px 100px #C7FFE8 ;
+    top: 2rem;
+    
+
+}
+form
+{
+    position: relative;
+    right: 27.5rem;
+    margin-top: 2rem ;
+    
+
+}

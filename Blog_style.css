@@ -1,42 +1,47 @@
 
 
-
-*
-{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    margin-bottom: 2rem;
-    font-family: 'Times New Roman', Times, serif;
-  
-    
-}
 body
+{
+    background-color: #F9F9FF;
+}
+#blogForm *
+{
+    margin: 0%;
+    padding: 0%;
+    margin-bottom: 2rem;
+    font-family: 'Times New Roman', Times, serif;    
+}
+#blogForm
 {   
-    margin-top: 3rem;
+    
+    margin: 0%;
+    padding: 0%;
+    position: relative;
     font-size: xx-large;    
     overflow: hidden;
-
+    background-color: #F9F9FF;
+    bottom: 5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    right: 3rem;
     
 }
-h1{
-    display: block;
-    text-align: center;
-    margin-bottom: 6rem;
+#blogForm h1
+{  
     margin: auto;
+     width: 400px;
+    text-align: center;
     font-weight: bold;
+   
 }
-.container{
+.gcontainer{
 text-align: center;
 display:grid;
 grid-template-columns:repeat(2,auto);
 width: 100px;
 position: relative;
 right: 1rem;
-
-
-
-
+bottom: rem;
 }
 
 .firstlabel
@@ -44,6 +49,7 @@ right: 1rem;
     position: relative;
     left:80%;
     font-weight: bold;
+    top:1rem;
     
 }
    
@@ -55,15 +61,14 @@ right: 1rem;
     left: 115%;
     top: 0.1rem;
     font-size: 2rem;
-    box-shadow:  0px 30px 100px #B1DAC9;
-
+    box-shadow:  -10px 30px 100px #B1DAC9;
 }
 #lname
 {
     height: 3.6rem;
     width: 36.7rem;
     font-size: 2rem;
-    box-shadow:  0px 30px 100px #B1DAC9;
+    box-shadow:  -10px 30px 100px #B1DAC9;
     
     
 }
@@ -79,6 +84,7 @@ right: 1rem;
 position: relative;
 right: 35%;
 font-weight: bold;
+top: 1rem;
 }
 #email
 {
@@ -87,13 +93,14 @@ font-weight: bold;
     width: 36.7rem;
     left: 115%;
     font-size: 2rem;
-    box-shadow:  0px 30px 100px #B1DAC9;
+    box-shadow:  -10px 30px 100px #B1DAC9;
 }
 .elabel
 {
     position: relative;
     left:77%;
     font-weight: bold;
+    top: 1rem;
     
 
 }
@@ -111,7 +118,7 @@ font-weight: bold;
     width: 37rem;
     height: 3.6rem;
     font-size: 1.5rem;
-    box-shadow:  0px 30px 100px #B1DAC9;
+    box-shadow:  -10px 30px 100px #B1DAC9;
   
 }
 .dp
@@ -119,13 +126,14 @@ font-weight: bold;
     font-weight: bold;
     position: relative;
 right: 35.5%;
+top: 1rem;
 }
-#title
+#tiTle
 {
     height: 3.6rem;
     width: 77.3rem;
     font-size: 2rem;
-    box-shadow:  0px 30px 100px #B1DAC9;
+    box-shadow:  -10px 30px 100px #B1DAC9;
 }
 #ti
 {
@@ -139,7 +147,7 @@ right: 35.5%;
     left: 5.1rem;
     font-weight: bold;
 }
-#blog
+#barea
 {
     position: relative;
     left: 515px;
@@ -149,7 +157,7 @@ right: 35.5%;
   {
       position: relative;
     
-   bottom: 21rem;
+   bottom: 15rem;
    left: 9.7rem;
    font-weight: bold;
 
@@ -160,7 +168,7 @@ right: 35.5%;
     box-shadow:  0px 30px 100px #B1DAC9;
     
 }
-button
+#postBlog
 {
     font-size: 1.8rem;
     position: relative;
@@ -172,31 +180,24 @@ button
     border: 0px;
    
 }
-button:hover
+#postBlog:hover
 {
     color: white;
     background-color: #52A583;
     cursor: pointer;
 }
-section
+#blogForm
 {
     position: relative;
-    /* border-bottom:  #B1DAC9 2px solid;
-    border-left:  #B1DAC9 2px solid;
-    border-right:  #B1DAC9 2px solid;
-    border-top: #B1DAC9 2px solid ; */
     margin-right: 25rem ;
     margin-left:30rem;
-    box-shadow: 0px 30px 100px #C7FFE8 ;
+    box-shadow: 0px 15px 20px #C7FFE8,0px -15px 20px #C7FFE8 ;
     top: 2rem;
-    
-
 }
 form
 {
     position: relative;
     right: 27.5rem;
     margin-top: 2rem ;
-    
 
 }

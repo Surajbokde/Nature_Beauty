@@ -301,7 +301,7 @@ button:focus {
 }
 
 .header_area + section, .header_area + row, .header_area + div {
-  margin-top: 146px;
+  margin-top: 100px;
 }
 
 .header_area.navbar_fixed .main_menu {

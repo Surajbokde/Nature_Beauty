@@ -4501,11 +4501,21 @@ font-size: 16px;
 .author{
   font:.500 12px/100px "Poppins", sans-serif;
 }
+.author:hover{
+  color:#27c9c6 ;
+
+}
 .share{
   cursor: pointer;
 }
 .comment1{
   cursor: pointer;
+}
+.comment:hover{
+  color: #27c9c6;
+}
+.share:hover{
+  color: #27c9c6;
 }
 /* End Contact Success and error Area css
 ============================================================================================ */
@@ -4544,7 +4554,6 @@ font-size: 16px;
   }
 
   
-
 }
 
 

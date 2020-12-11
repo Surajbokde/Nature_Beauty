@@ -94,22 +94,22 @@
                                 <span class="header">
                                     <h3>GET IN TOUCH</h3>
                                 </span>
-                                <form class="contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                                <form class="contact_form" action="contact_process.php" method="post" id="contactForm">
                                         <div class="input-group">
                                             <span class="input-group-addon" ><i class="fa fa-user fa-fw" aria-hidden="true" style="color:#fff"></i></span>
                                             <input class="form-control" name="name" type="text" id="name" placeholder="Name" required>
                                           </div>
                                           <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true" style="color:#fff"></i></span>
-                                            <input class="form-control" name="email"type="text" id="email" placeholder="Email" required> 
+                                            <input class="form-control" name="email" type="email" id="email" placeholder="Email" required>
                                           </div>
                                           <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-phone fa-fw" aria-hidden="true" style="color:#fff"></i></span>
-                                            <input class="form-control" name="number"type="tel" id="phone" placeholder="Phone">
+                                            <input class="form-control" name="number" type="tel" pattern="[0-9]{10}" minlength="10" id="phone" placeholder="Phone" oninvalid="this.setCustomValidity('Enter 10 Digit Phone Number Here')" oninput="this.setCustomValidity('')" required>
                                           </div>
                                           <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-tag fa-fw" aria-hidden="true" style="color:#fff"></i></span>
-                                            <input class="form-control" name="subject" type="text" placeholder="Subject">
+                                            <input class="form-control" name="subject" type="text" placeholder="Subject" required>
                                           </div>
                                           <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-pencil fa-fw" aria-hidden="true" style="color:#fff"></i></span>
@@ -117,7 +117,7 @@
                                           </div>
                                         <div text-center>
                                             <button type="submit" value="submit" class="btn submit_btn">Send Message</button>
-                                        </div>  
+                                        </div>
                                 </form>
                             </div>   
                         </div>   

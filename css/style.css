@@ -4425,6 +4425,12 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   border-radius: 4px;
 }
+/* ===================================Card==================================== */
+
+.Card-image{
+  width:50px;
+  height: 50px;;
+}
 
 /* Contact Success and error Area css
 ============================================================================================ */
@@ -4469,9 +4475,118 @@ h1, h2, h3, h4, h5, h6 {
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
+/* ----------------------Blog_Card---------------------------------- */
 
+.card1{
+  background-color:rgb(248, 244, 244);
+ 
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
+
+}
+.card-title{
+font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+   
+}
+.comment{
+  position: relative;
+  padding:10px;
+  margin: 41px;
+}
+/* .blog-cards{
+  margin: 10px;
+} */
+.Card-image{
+  width:300px;
+  height:auto;
+  align-content: center;
+}
+.mar1{
+  margin-top: 20px;
+}
+.author{
+  text-align: center;
+}
+.social-group{
+  display: inline-block;
+  text-align: center;
+}
+.date{
+  height: 50px;
+  width: 50px;
+  background-color:#27c9c6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: 25px;
+  border: none;
+  font-family: cursive;
+}
+}
+.card-title{
+  text-align: center;
+  
+}
+.author{
+  font:.500 12px/100px "Poppins", sans-serif;
+}
+.author:hover{
+  color:#27c9c6 ;
+
+}
+.share{
+  cursor: pointer;
+}
+.comment1{
+  cursor: pointer;
+}
+.comment:hover{
+  color: #27c9c6;
+}
+.share:hover{
+  color: #27c9c6;
+}
 /* End Contact Success and error Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .Card-image { width:200px;
+    height:auto; } /* your css rules for ipad portrait */
+}
+
+
+
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .Card-image { width:200px;
+    height:auto; } /* your css rules for ipad landscape */
+}
+
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+ .author{
+   font-size: 10px;
+  margin-right:110px;
+   
+
+ }
+
+  
+}
+@media only screen and (device-width: 360px){
+  .comment{
+   
+     padding:3px;
+  }
+
+  
+}
+
+

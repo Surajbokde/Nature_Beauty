@@ -6,7 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <title>Nature_beauty</title>
-        <!-- Bootstrap CSS -->
+		<!-- Bootstrap CSS -->
+		
+        <link rel="stylesheet" href="css/intlTelInput.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -15,7 +17,7 @@
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
         <!-- main css -->
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+		<link rel="stylesheet" href="css/responsive.css">
     </head>
     <body>
         
@@ -434,12 +436,7 @@
                                         <input type="email" id="volunteer_email" class="form-control" placeholder="Your Email">
                                     </div>
                                     <div class="col-lg-6">
-                                        <select name="branch" class="form-control" id="volunteer_brach">
-                                            <option value="">Select</option>    
-                                            <option value="">Branch</option>
-                                            <option value="">New york</option>
-                                            <option value="">washington</option>
-                                        </select>
+                                        <input type="tel" id="volunteer_phone" class="form-control" placeholder="Phone Number">
                                     </div>
                                     <div class="col-lg-6 xs-mb-20">
                                         <div class="xs-fileContainer">
@@ -748,6 +745,63 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/easing.min.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/intlTelInput.min.js"></script>
+		<script src="js/intlTelInput-jquery.min.js"></script> 
+		<script>
+			var input = document.querySelector("#volunteer_phone");
+			window.intlTelInput(input,({
+				// whether or not to allow the dropdown
+allowDropdown: true,
+
+// if there is just a dial code in the input: remove it on blur, and re-add it on focus
+autoHideDialCode: true,
+
+// add a placeholder in the input with an example number for the selected country
+autoPlaceholder: "polite",
+
+// modify the auto placeholder
+customPlaceholder: null,
+
+// append menu to specified element
+dropdownContainer: null,
+
+// don't display these countries
+excludeCountries: [],
+
+// format the input value during initialisation and on setNumber
+formatOnDisplay: true,
+
+// geoIp lookup function
+geoIpLookup: null,
+
+// inject a hidden input with this name, and on submit, populate it with the result of getNumber
+hiddenInput: "",
+
+// initial country
+initialCountry: "in",
+
+// localized country names e.g. { 'de': 'Deutschland' }
+localizedCountries: null,
+
+// don't insert international dial codes
+nationalMode: true,
+
+// display only these countries
+onlyCountries: [],
+
+// number type to use for placeholders
+placeholderNumberType: "MOBILE",
+
+// the countries at the top of the list. defaults to united states and united kingdom
+preferredCountries: [ "in", "us", "gb" ],
+
+// display the country dial code next to the selected flag so it's not part of the typed number
+separateDialCode: false,
+
+// specify the path to the libphonenumber script to enable validation/formatting
+utilsScript: ""
+			}));
+		</script> 
     </body>
 </html>

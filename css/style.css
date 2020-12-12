@@ -2367,6 +2367,10 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
     color: #fff !important;
 }
 
+#volunteer_phone{
+  text-align: center;
+}
+
 
 /*----------------------------------------------------*/
 /* End Volunteer Area css

@@ -15,9 +15,10 @@
         <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
         <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/responsive.css">
+		
     </head>
     <body>
         
@@ -427,26 +428,31 @@
                         <div class="xs-volunteer-form-wraper bg-aqua">
                             <h2>Become a Volunteer</h2>
                             <p>It only takes a minute to set up a campaign. Decide what to do. Pick a name. Pick a photo. And just like that, you’ll be ready to start raising money.</p>
-                            <form action="#" method="POST" id="volunteer-form" class="xs-volunteer-form">
+                            <form action="#" method="POST" id="volunteer-form" class="xs-volunteer-form" name="volunteerForm">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" id="volunteer_name" class="form-control" placeholder="Your Name">
+										<input type="text" id="volunteer_name" name="volunteerName" class="form-control" placeholder="Your Name">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="email" id="volunteer_email" class="form-control" placeholder="Your Email">
+										<input type="email" id="volunteer_email" name="volunteerEmail" class="form-control" placeholder="Your Email">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="tel" id="volunteer_phone" class="form-control" placeholder="Phone Number">
+										<input type="tel" id="volunteer_phone" name="volunteerPhone" class="form-control" placeholder="Phone Number">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6 xs-mb-20">
                                         <div class="xs-fileContainer">
-                                            <input type="file" id="volunteer_cv" class="form-control" name="file">
-                                            <label for="volunteer_cv">Upload Your CV</label>
-                                        </div>
+                                            <input type="file" id="volunteer_cv" name="volunteerCV" class="form-control" name="file">
+											<label for="volunteer_cv">Upload Your CV</label>
+											
+										</div>
+										<small></small>
                                     </div>
                                 </div><!-- .row end -->
-                                <textarea name="massage" id="massage" placeholder="Enter your massage" cols="30" class="form-control" rows="10"></textarea>
-                                <button type="submit" class="btn btn-secondary btn-color-alt">apply now</button>
+                                <textarea name="massage" id="massage" name="volunteerMsg"  placeholder="Enter your message" cols="30" class="form-control" rows="10"></textarea><small></small>
+                                <button type="submit" class="btn btn-secondary btn-color-alt" onsubmit="validateForm()">apply now</button>
                             </form><!-- #volunteer-form .xs-volunteer-form END -->
                         </div>
                     </div>
@@ -802,6 +808,8 @@ separateDialCode: false,
 // specify the path to the libphonenumber script to enable validation/formatting
 utilsScript: ""
 			}));
-		</script> 
+		</script>
+		<!-- <script src="js/jquery.validate.js"></script> -->
+		<script src="js/validation.js"></script> 
     </body>
 </html>

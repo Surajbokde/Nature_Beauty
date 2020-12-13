@@ -1940,8 +1940,7 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .comments-area .date {
   font-size: 13px;
-  color: #cccccc;
-  margin-bottom: 13px;
+  color: #fff;
 }
 
 .comments-area .comment {
@@ -4516,13 +4515,12 @@ font-size: 16px;
   text-align: center;
 }
 .date{
-  height: 50px;
-  width: 50px;
+  padding: 5px;
   background-color:#27c9c6;
-  border-radius: 50%;
+  border-radius: 20px;
   display: inline-block;
-  margin-top: -25px;
   margin-left: 25px;
+  margin-bottom: 0px;
   border: none;
   font-family: cursive;
 }

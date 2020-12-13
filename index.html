@@ -6,16 +6,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
         <title>Nature_beauty</title>
-        <!-- Bootstrap CSS -->
+		<!-- Bootstrap CSS -->
+		
+        <link rel="stylesheet" href="css/intlTelInput.css">
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="vendors/linericon/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
         <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css">
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
-        <!-- main css -->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		
     </head>
     <body>
         
@@ -425,31 +428,31 @@
                         <div class="xs-volunteer-form-wraper bg-aqua">
                             <h2>Become a Volunteer</h2>
                             <p>It only takes a minute to set up a campaign. Decide what to do. Pick a name. Pick a photo. And just like that, you’ll be ready to start raising money.</p>
-                            <form action="#" method="POST" id="volunteer-form" class="xs-volunteer-form">
+                            <form action="#" method="POST" id="volunteer-form" class="xs-volunteer-form" name="volunteerForm">
                                 <div class="row">
                                     <div class="col-lg-6">
-                                        <input type="text" id="volunteer_name" class="form-control" placeholder="Your Name">
+										<input type="text" id="volunteer_name" name="volunteerName" class="form-control" placeholder="Your Name">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6">
-                                        <input type="email" id="volunteer_email" class="form-control" placeholder="Your Email">
+										<input type="email" id="volunteer_email" name="volunteerEmail" class="form-control" placeholder="Your Email">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6">
-                                        <select name="branch" class="form-control" id="volunteer_brach">
-                                            <option value="">Select</option>    
-                                            <option value="">Branch</option>
-                                            <option value="">New york</option>
-                                            <option value="">washington</option>
-                                        </select>
+										<input type="tel" id="volunteer_phone" name="volunteerPhone" class="form-control" placeholder="Phone Number">
+										<small></small>
                                     </div>
                                     <div class="col-lg-6 xs-mb-20">
                                         <div class="xs-fileContainer">
-                                            <input type="file" id="volunteer_cv" class="form-control" name="file">
-                                            <label for="volunteer_cv">Upload Your CV</label>
-                                        </div>
+                                            <input type="file" id="volunteer_cv" name="volunteerCV" class="form-control" name="file">
+											<label for="volunteer_cv">Upload Your CV</label>
+											
+										</div>
+										<small></small>
                                     </div>
                                 </div><!-- .row end -->
-                                <textarea name="massage" id="massage" placeholder="Enter your massage" cols="30" class="form-control" rows="10"></textarea>
-                                <button type="submit" class="btn btn-secondary btn-color-alt">apply now</button>
+                                <textarea name="massage" id="massage" name="volunteerMsg"  placeholder="Enter your message" cols="30" class="form-control" rows="10"></textarea><small></small>
+                                <button type="submit" class="btn btn-secondary btn-color-alt" onsubmit="validateForm()">apply now</button>
                             </form><!-- #volunteer-form .xs-volunteer-form END -->
                         </div>
                     </div>
@@ -748,6 +751,65 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="js/jquery.ajaxchimp.min.js"></script>
         <script src="js/easing.min.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/intlTelInput.min.js"></script>
+		<script src="js/intlTelInput-jquery.min.js"></script> 
+		<script>
+			var input = document.querySelector("#volunteer_phone");
+			window.intlTelInput(input,({
+				// whether or not to allow the dropdown
+allowDropdown: true,
+
+// if there is just a dial code in the input: remove it on blur, and re-add it on focus
+autoHideDialCode: true,
+
+// add a placeholder in the input with an example number for the selected country
+autoPlaceholder: "polite",
+
+// modify the auto placeholder
+customPlaceholder: null,
+
+// append menu to specified element
+dropdownContainer: null,
+
+// don't display these countries
+excludeCountries: [],
+
+// format the input value during initialisation and on setNumber
+formatOnDisplay: true,
+
+// geoIp lookup function
+geoIpLookup: null,
+
+// inject a hidden input with this name, and on submit, populate it with the result of getNumber
+hiddenInput: "",
+
+// initial country
+initialCountry: "in",
+
+// localized country names e.g. { 'de': 'Deutschland' }
+localizedCountries: null,
+
+// don't insert international dial codes
+nationalMode: true,
+
+// display only these countries
+onlyCountries: [],
+
+// number type to use for placeholders
+placeholderNumberType: "MOBILE",
+
+// the countries at the top of the list. defaults to united states and united kingdom
+preferredCountries: [ "in", "us", "gb" ],
+
+// display the country dial code next to the selected flag so it's not part of the typed number
+separateDialCode: false,
+
+// specify the path to the libphonenumber script to enable validation/formatting
+utilsScript: ""
+			}));
+		</script>
+		<!-- <script src="js/jquery.validate.js"></script> -->
+		<script src="js/validation.js"></script> 
     </body>
 </html>

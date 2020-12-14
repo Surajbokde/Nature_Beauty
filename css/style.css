@@ -301,7 +301,7 @@ button:focus {
 }
 
 .header_area + section, .header_area + row, .header_area + div {
-  margin-top: 146px;
+  margin-top: 100px;
 }
 
 .header_area.navbar_fixed .main_menu {
@@ -498,25 +498,38 @@ button:focus {
   z-index: 1;
 }
 
-.blog_banner .banner_inner {
-  background: #04091e;
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  min-height: 780px;
-  z-index: 1;
-}
+/* .blog_banner .banner_inner {
+  background: url(../img/banner/blogback.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  z-index: -1;
+ 
+  opacity: .75;
+} */
 
 .blog_banner .banner_inner .overlay {
-  background: url(../img/banner/banner-2.jpg) no-repeat scroll center center;
-  opacity: .5;
+  background: url(../img/banner/blogback.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  bottom: 0;
+  z-index: -1;
+ 
+  opacity: .75;
   height: 125%;
 }
 
 .blog_banner .banner_inner .blog_b_text {
   max-width: 700px;
   margin: auto;
-  color: #fff;
+  color: rgb(0, 0, 0);
+  text-shadow: rgb(136, 231, 235) 1px 0 10px;
   margin-top: 90px;
 }
 
@@ -806,8 +819,14 @@ button:focus {
 }
 
 .wel_item {
-  border: 1px solid #eeeeee;
-  padding: 30px 25px;
+  border: 2px solid #eeeeee;
+  padding: 30px 24px;
+  transition: border 0.3s ease-in-out 0s;
+}
+
+.wel_item:hover {
+border-color: #27c9c6;
+box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .wel_item i {
@@ -1147,6 +1166,8 @@ button:focus {
 }
 
 .causes_item .causes_text {
+  height: 15rem;
+  overflow: scroll;
   padding: 30px 35px 40px 30px;
 }
 
@@ -2359,6 +2380,12 @@ button:focus {
     color: #fff !important;
 }
 
+#volunteer_phone{
+  text-align: center;
+}
+
+
+
 
 /*----------------------------------------------------*/
 /* End Volunteer Area css
@@ -2497,7 +2524,7 @@ button:focus {
 /* Testimonials Area css
 ============================================================================================ */
 .testimonials_area {
-  background: ;
+  /* background: ; */
 }
 
 .testimonials_inner .testi_left_text {
@@ -4306,10 +4333,19 @@ h1, h2, h3, h4, h5, h6 {
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /*============== contact_area css ================*/
-.mapBox {
-  height: 420px;
-  margin-bottom: 80px;
-}
+.map-container-6{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+  }
+  .map-container-6 iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
 
 .contact_info .info_item {
   position: relative;
@@ -4345,17 +4381,31 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .contact_form .form-group {
-  margin-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+}
+.contact_form .input-group{
+  margin-top: 17px;
+
+}
+.contact_form .input-group .input-group-addon{
+  background-color: #27c9c6;
+  border:none;
+}
+.contact_form .form-control {
+  font-size:13px;
+  color: #999;
+  border:none;
+  border-bottom:1px solid #333;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+
 }
 
-.contact_form .form-group .form-control {
-  font-size: 13px;
-  line-height: 26px;
-  color: #999;
-  border: 1px solid #eeeeee;
-  font-family: "Poppins", sans-serif;
-  border-radius: 0px;
-  padding-left: 20px;
+.contact_form .form-control:hover{
+  border-bottom:1px solid #27c9c6;
+
 }
 
 .contact_form .form-group .form-control:focus {
@@ -4364,33 +4414,41 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.contact_form .form-group .form-control.placeholder {
+.contact_form .form-control.placeholder {
+  color: #999;
+
+}
+
+.contact_form .form-control:-moz-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control:-moz-placeholder {
+.contact_form .form-control::-moz-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control::-moz-placeholder {
+.contact_form .form-control::-webkit-input-placeholder {
   color: #999;
 }
 
-.contact_form .form-group .form-control::-webkit-input-placeholder {
-  color: #999;
-}
-
-.contact_form .form-group textarea {
+.contact_form  textarea {
   resize: none;
 }
 
-.contact_form .form-group textarea.form-control {
-  height: 140px;
+.contact_form textarea.form-control {
+  height: 100px;
 }
 
 .contact_form .submit_btn {
   margin-top: 20px;
   cursor: pointer;
+  border-radius: 4px;
+}
+/* ===================================Card==================================== */
+
+.Card-image{
+  width:50px;
+  height: 50px;;
 }
 
 /* Contact Success and error Area css
@@ -4436,9 +4494,144 @@ h1, h2, h3, h4, h5, h6 {
 .modal-message .modal-dialog .modal-content .modal-header p {
   display: block;
 }
+/* ----------------------Blog_Card---------------------------------- */
 
+.card1{
+  background-color:rgb(248, 244, 244);
+ 
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
+
+}
+.card-title{
+font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+   
+}
+.comment{
+  position: relative;
+  padding:10px;
+  margin: 41px;
+}
+/* .blog-cards{
+  margin: 10px;
+} */
+.Card-image{
+  width:300px;
+  height:auto;
+  align-content: center;
+}
+.mar1{
+  margin-top: 20px;
+}
+.author{
+  text-align: center;
+}
+.social-group{
+  display: inline-block;
+  text-align: center;
+}
+.date{
+  height: 50px;
+  width: 50px;
+  background-color:#27c9c6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: 25px;
+  border: none;
+  font-family: cursive;
+}
+
+.card-title{
+  text-align: center;
+  
+}
+.author{
+  font:.500 12px/100px "Poppins", sans-serif;
+}
+.author:hover{
+  color:#27c9c6 ;
+
+}
+.share{
+  cursor: pointer;
+}
+.comment1{
+  cursor: pointer;
+}
+.comment:hover{
+  color: #27c9c6;
+}
+.share:hover{
+  color: #27c9c6;
+}
 /* End Contact Success and error Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .Card-image { width:200px;
+    height:auto; } /* your css rules for ipad portrait */
+}
+
+
+
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .Card-image { width:200px;
+    height:auto; } /* your css rules for ipad landscape */
+}
+
+
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+ .author{
+   font-size: 10px;
+  margin-right:110px;
+   
+
+ }
+
+  
+}
+@media only screen and (device-width: 360px){
+  .comment{
+   
+     padding:3px;
+  }
+
+  
+}
+
+.hasError #volunteer_name{
+  border: 3px solid red;
+  /* background-color: rgba(255, 0, 0, 0.734); */
+}
+.hasError #volunteer_email{
+  border: 3px solid red;
+  /* background-color: rgba(255, 0, 0, 0.734); */
+}
+.hasError #volunteer_phone{
+  border: 3px solid red;
+  /* background-color: rgba(255, 0, 0, 0.734); */
+}
+.hasError #volunteer_cv{
+  border: 3px solid red;
+  /* background-color: rgba(255, 0, 0, 0.734); */
+}
+
+
+form .hasError small{
+  position: relative;
+  top: -15px;
+  left: 5px;
+  color: red;
+  font-weight: 600;
+  z-index: 10;
+}
+

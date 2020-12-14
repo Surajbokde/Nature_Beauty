@@ -549,7 +549,7 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
-  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  background: url(../img/banner/donate.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
@@ -923,11 +923,92 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 ============================================================================================ */
 /* Donation Form Area css
 ============================================================================================ */
-.donation_f_area {
-  overflow: hidden;
-}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 
-.dn_left_text .dn_item {
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+}
+/* .donation_f_area {
+  overflow: hidden;
+} */
+/*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+}
+@media (min-width: 770px){
+  /*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+}
+}
+@media (max-width: 770px){
+  /*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+  margin-left: 40px;
+}
+}
+/*.dn_left_text*/ .card .dn_item{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #2a2b2f;
+  border: 2px solid #1e1f23;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  transition: 0.5s;
+}
+.container1 .card .dn_item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.1);
+}
+/*.dn_left_text*/ .card .dn_item:hover{
+  transform: translateY(-50px);
+  box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+}
+/*.dn_left_text*/ .card .dn_item .content{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+/*.dn_left_text*/ .card .dn_item .content h4{
+  margin-top: 20px;
+  font-size:30px;
+}
+/* .dn_left_text .dn_item {
   margin-bottom: 40px;
 }
 
@@ -946,8 +1027,13 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 .dn_left_text .dn_item p {
   margin-bottom: 0px;
 }
+*/
 
-.dn_form_area .donation_form .form-group .donate_select {
+.container2{
+  margin-top: 200px;
+  margin-left: 300px;
+}
+.dn_form_area .donation_form .form-group .donate_select{
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -957,8 +1043,25 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   line-height: 38px;
   padding-left: 20px;
   padding-right: 35px;
+  background-color: #f8f9f9;
+}
+.dn_form_area .donation_form .form-group .donate_select:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
+@media (min-width: 992px) {
+  .container2{
+    margin-top: 200px;
+    margin-left: 300px;
+  }
 }
 
+@media (max-width: 992px){
+  .container2{
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+}
 .dn_form_area .donation_form .form-group .donate_select:after {
   content: "\e874";
   font-family: 'Linearicons-Free';
@@ -999,8 +1102,12 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   color: #999999;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  background-color: #f8f9f9;
 }
-
+.dn_form_area .donation_form .form-group input:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
 .dn_form_area .donation_form .form-group input.placeholder {
   font-size: 13px;
   color: #999999;
@@ -1039,8 +1146,12 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   resize: none;
+  background-color: #f8f9f9;
 }
-
+.dn_form_area .donation_form .form-group textarea:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
 .dn_form_area .donation_form .form-group textarea.placeholder {
   font-size: 13px;
   color: #999999;
@@ -1071,6 +1182,14 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .dn_form_area .donation_form .form-group .submit_btn {
   float: right;
+  background-color: #2ecc71;
+  color:white;
+}
+.dn_form_area .donation_form .form-group .submit_btn:hover{
+  float: right;
+  background-color: white;
+  color: #2ecc71;
+  border:1px solid #2ecc71;
 }
 
 .master_card {

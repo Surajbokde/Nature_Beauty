@@ -4501,6 +4501,7 @@ h1, h2, h3, h4, h5, h6 {
  
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
+<<<<<<< HEAD
 
 }
 .card-title{
@@ -4546,6 +4547,53 @@ font-size: 16px;
   font-family: cursive;
 }
 
+=======
+
+}
+.card-title{
+font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+   
+}
+.comment{
+  position: relative;
+  padding:10px;
+  margin: 41px;
+}
+/* .blog-cards{
+  margin: 10px;
+} */
+.Card-image{
+  width:300px;
+  height:auto;
+  align-content: center;
+}
+.mar1{
+  margin-top: 20px;
+}
+.author{
+  text-align: center;
+}
+.social-group{
+  display: inline-block;
+  text-align: center;
+}
+.date{
+  height: 50px;
+  width: 50px;
+  background-color:#27c9c6;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: -25px;
+  margin-left: 25px;
+  border: none;
+  font-family: cursive;
+}
+
+>>>>>>> faaa0a380282c14691a039aeeb262c57341027d2
 .card-title{
   text-align: center;
   

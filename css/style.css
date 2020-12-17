@@ -512,15 +512,15 @@ button:focus {
 } */
 
 .blog_banner .banner_inner .overlay {
-  background: url(../img/banner/blogback.jpg) no-repeat scroll center center;
+  background: url(../img/banner/Imageblog.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   height: 100%;
-  bottom: 0;
+  width: 100%;
   z-index: -1;
- 
+  overflow-x: hidden;
   opacity: .75;
   height: 125%;
 }
@@ -562,6 +562,17 @@ button:focus {
 }
 
 .banner_area .banner_inner .overlay {
+  background: url(../img/banner/banner.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+  opacity: .25;
+}
+.banner_area .banner_inner .overlaydonate {
   background: url(../img/banner/donate.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
@@ -572,7 +583,6 @@ button:focus {
   z-index: -1;
   opacity: .25;
 }
-
 .banner_area .banner_inner .banner_content h2 {
   font-weight: bold;
   color: #fff;
@@ -2762,6 +2772,9 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 .footer-area {
   background: #04091e;
   padding: 30px 0px;
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
 
 .single-footer-widget p {
@@ -4617,10 +4630,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .card1{
   background-color:rgb(248, 244, 244);
- 
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
-<<<<<<< HEAD
 
 }
 .card-title{
@@ -4652,7 +4663,7 @@ font-size: 16px;
 }
 .social-group{
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 .date{
   height: 50px;
@@ -4666,59 +4677,13 @@ font-size: 16px;
   font-family: cursive;
 }
 
-=======
-
-}
 .card-title{
-font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #222222;
-    text-transform: uppercase;
-   
-}
-.comment{
-  position: relative;
-  padding:10px;
-  margin: 41px;
-}
-/* .blog-cards{
-  margin: 10px;
-} */
-.Card-image{
-  width:300px;
-  height:auto;
-  align-content: center;
-}
-.mar1{
-  margin-top: 20px;
-}
-.author{
-  text-align: center;
-}
-.social-group{
-  display: inline-block;
-  text-align: center;
-}
-.date{
-  height: 50px;
-  width: 50px;
-  background-color:#27c9c6;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: -25px;
-  margin-left: 25px;
-  border: none;
-  font-family: cursive;
-}
-
->>>>>>> faaa0a380282c14691a039aeeb262c57341027d2
-.card-title{
-  text-align: center;
+  text-align:left;
   
 }
 .author{
   font:.500 12px/100px "Poppins", sans-serif;
+  font-size: 12px;
 }
 .author:hover{
   color:#27c9c6 ;

@@ -2557,6 +2557,11 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
     width: 90%;
     height: 90%;
 }
+.box img.rutu{
+  height: 250px;
+  object-fit: cover;
+  object-position: center center;
+}
 .box img{
     width: 100%;
     height: auto;

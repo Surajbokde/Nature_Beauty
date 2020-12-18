@@ -512,15 +512,15 @@ button:focus {
 } */
 
 .blog_banner .banner_inner .overlay {
-  background: url(../img/banner/blogback.jpg) no-repeat scroll center center;
+  background: url(../img/banner/Imageblog.jpg) no-repeat scroll center center;
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
   height: 100%;
-  bottom: 0;
+  width: 100%;
   z-index: -1;
- 
+  overflow-x: hidden;
   opacity: .75;
   height: 125%;
 }
@@ -572,7 +572,17 @@ button:focus {
   z-index: -1;
   opacity: .25;
 }
-
+.banner_area .banner_inner .overlaydonate {
+  background: url(../img/banner/donate.jpg) no-repeat scroll center center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 125%;
+  bottom: 0;
+  z-index: -1;
+  opacity: .25;
+}
 .banner_area .banner_inner .banner_content h2 {
   font-weight: bold;
   color: #fff;
@@ -936,11 +946,92 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 ============================================================================================ */
 /* Donation Form Area css
 ============================================================================================ */
-.donation_f_area {
-  overflow: hidden;
-}
+.container1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 
-.dn_left_text .dn_item {
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+}
+/* .donation_f_area {
+  overflow: hidden;
+} */
+/*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+}
+@media (min-width: 770px){
+  /*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+}
+}
+@media (max-width: 770px){
+  /*.dn_left_text*/ .card{
+  position:relative;
+  width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+              inset -5px -5px 15px rgba(255,255,255,0.1),
+              5px 5px 15px rgba(0,0,0,0.3),
+              -5px -5px 15px rgba(255,255,255,0.1);
+  border-radius:15px;
+  margin: 5px;
+  margin-left: 40px;
+}
+}
+/*.dn_left_text*/ .card .dn_item{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background-color: #2a2b2f;
+  border: 2px solid #1e1f23;
+  border-radius: 15px;
+  box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+  transition: 0.5s;
+}
+.container1 .card .dn_item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(255,255,255,0.1);
+}
+/*.dn_left_text*/ .card .dn_item:hover{
+  transform: translateY(-50px);
+  box-shadow: 0 40px 70px rgba(0,0,0,0.5);
+}
+/*.dn_left_text*/ .card .dn_item .content{
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+/*.dn_left_text*/ .card .dn_item .content h4{
+  margin-top: 20px;
+  font-size:30px;
+}
+/* .dn_left_text .dn_item {
   margin-bottom: 40px;
 }
 
@@ -959,8 +1050,13 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 .dn_left_text .dn_item p {
   margin-bottom: 0px;
 }
+*/
 
-.dn_form_area .donation_form .form-group .donate_select {
+.container2{
+  margin-top: 200px;
+  margin-left: 300px;
+}
+.dn_form_area .donation_form .form-group .donate_select{
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -970,8 +1066,25 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   line-height: 38px;
   padding-left: 20px;
   padding-right: 35px;
+  background-color: #f8f9f9;
+}
+.dn_form_area .donation_form .form-group .donate_select:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
+@media (min-width: 992px) {
+  .container2{
+    margin-top: 200px;
+    margin-left: 300px;
+  }
 }
 
+@media (max-width: 992px){
+  .container2{
+    margin-top: 200px;
+    margin-left: 0px;
+  }
+}
 .dn_form_area .donation_form .form-group .donate_select:after {
   content: "\e874";
   font-family: 'Linearicons-Free';
@@ -1012,8 +1125,12 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   color: #999999;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
+  background-color: #f8f9f9;
 }
-
+.dn_form_area .donation_form .form-group input:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
 .dn_form_area .donation_form .form-group input.placeholder {
   font-size: 13px;
   color: #999999;
@@ -1052,8 +1169,12 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   resize: none;
+  background-color: #f8f9f9;
 }
-
+.dn_form_area .donation_form .form-group textarea:hover{
+  border:1px solid #82e0aa;
+  box-shadow: 2px 2px #2ecc71;
+}
 .dn_form_area .donation_form .form-group textarea.placeholder {
   font-size: 13px;
   color: #999999;
@@ -1084,6 +1205,14 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .dn_form_area .donation_form .form-group .submit_btn {
   float: right;
+  background-color: #2ecc71;
+  color:white;
+}
+.dn_form_area .donation_form .form-group .submit_btn:hover{
+  float: right;
+  background-color: white;
+  color: #2ecc71;
+  border:1px solid #2ecc71;
 }
 
 .master_card {
@@ -2648,6 +2777,9 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 .footer-area {
   background: #04091e;
   padding: 30px 0px;
+  width: 100%;
+  position: absolute;
+  left: 0;
 }
 
 .single-footer-widget p {
@@ -4503,10 +4635,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .card1{
   background-color:rgb(248, 244, 244);
- 
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
-<<<<<<< HEAD
 
 }
 .card-title{
@@ -4538,7 +4668,7 @@ font-size: 16px;
 }
 .social-group{
   display: inline-block;
-  text-align: center;
+  text-align: left;
 }
 .date{
   height: 50px;
@@ -4552,59 +4682,13 @@ font-size: 16px;
   font-family: cursive;
 }
 
-=======
-
-}
 .card-title{
-font-size: 16px;
-    line-height: 24px;
-    font-weight: 600;
-    color: #222222;
-    text-transform: uppercase;
-   
-}
-.comment{
-  position: relative;
-  padding:10px;
-  margin: 41px;
-}
-/* .blog-cards{
-  margin: 10px;
-} */
-.Card-image{
-  width:300px;
-  height:auto;
-  align-content: center;
-}
-.mar1{
-  margin-top: 20px;
-}
-.author{
-  text-align: center;
-}
-.social-group{
-  display: inline-block;
-  text-align: center;
-}
-.date{
-  height: 50px;
-  width: 50px;
-  background-color:#27c9c6;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: -25px;
-  margin-left: 25px;
-  border: none;
-  font-family: cursive;
-}
-
->>>>>>> faaa0a380282c14691a039aeeb262c57341027d2
-.card-title{
-  text-align: center;
+  text-align:left;
   
 }
 .author{
   font:.500 12px/100px "Poppins", sans-serif;
+  font-size: 12px;
 }
 .author:hover{
   color:#27c9c6 ;

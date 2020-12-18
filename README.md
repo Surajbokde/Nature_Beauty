@@ -14,7 +14,7 @@
   </a>
 
 ## Project Details 
-- Nature_beauty ( Web App ) is about our Environment and Nature .
+- Nature_beauty ( Web App ) is for organisation to spread awareness about environment and Nature .
 - People will write Blogs and are able to Donate For Nature by login to website.
 
 ## web stack

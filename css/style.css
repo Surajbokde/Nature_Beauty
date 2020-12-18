@@ -1051,7 +1051,24 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   margin-bottom: 0px;
 }
 */
-
+.form-heading h2{
+  text-align: center;
+  position: relative;
+  top: 140px;
+  left: -50px;
+  color: #2ecc71;
+  font-size: 50px;
+  font-weight: 900;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {color: yellow;}
+  to {color: #2ecc71;}
+}
 .container2{
   margin-top: 200px;
   margin-left: 300px;

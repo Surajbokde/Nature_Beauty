@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+   <link rel="icon" href="./img/our-mission.jpg" type="image/x-icon">
+   <title>Nature_Beauty</title>
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="../css/bootstrap.css">
+   <link rel="stylesheet" href="../vendors/linericon/style.css">
+   <link rel="stylesheet" href="../css/font-awesome.min.css">
+   <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+   <link rel="stylesheet" href="../vendors/lightbox/simpleLightbox.css">
+   <link rel="stylesheet" href="../vendors/animate-css/animate.css">
+   <!-- main css -->
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+   <!--================Header Menu Area =================-->
+   <header class="header_area">
+      <div class="main_menu">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+               <!-- Brand and toggle get grouped for better mobile display -->
+               <a class="navbar-brand logo_h" href="index.php"><img src="../img/logo.png" alt=""></a>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+               </button>
+               <!-- Collect the nav links, forms, and other content for toggling -->
+               <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                  <ul class="nav navbar-nav menu_nav ml-auto">
+                     <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
+                     <li class="nav-item"><a class="nav-link" href="about-us.php">About</a></li>
+                     <li class="nav-item"><a class="nav-link" href="donation.php">Donation</a></li> 
+                     <li class="nav-item submenu dropdown active">
+                         <a href="blog.php" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                         <ul class="dropdown-menu">
+                             <li class="nav-item active"><a class="nav-link" href="blog.php">Blog</a></li>
+                             <li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
+                         </ul>
+                     </li> 
+
+                     <li class="nav-item "><a class="nav-link" href="contact.php">Contact</a></li>
+                 </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <!--================Header Menu Area =================-->
+   <!--================Home Banner Area =================-->
+
+   <!--================Home Banner Area =================-->
+   <section class="home_banner_area blog_banner">
+      <div class="banner_inner d-flex align-items-center">
+         <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
+         </div>
+         <div class="container">
+            <div class="blog_b_text text-center">
+               <h2>Blogs</h2>
+               <h3>Section.</h3>
+               </p>
+               <a class="white_bg_btn" href="#">View More</a>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--================End Home Banner Area =================-->
+   <br>
+   <hr>
+   <br>
+   <!--================End Home Banner Area =================-->
+
+   <!--================Gallery Area =================-->
+   <section id="gallery_area" class="gallery_area p_90">
+      <div class="container">
+         <div class="main_title">
+            <h2>Events Gallery</h2>
+            <p>Some of our frequently occured events snaps. <br /> A road to make others Happy.</p>
+         </div>
+      </div>
+      <div class="container">
+         <div class="row no-gutters">
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\fund_nature.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\GlobalWarming.png" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\preservation_glacier.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\slide1.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\tree_plantation.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img\blog\card\water_conservation.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img/gallery/g-7.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img/gallery/g-8.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+               <div class="box">
+                  <img src="../img/gallery/g-9.jpg" alt="">
+                  <div class="box-content">
+                     <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+
+   </section>
+
+   <!--================Gallery Area End =================-->
+
+
+   <br>
+   <hr>
+
+   <!--================Blog Card Area =================-->
+   <div class="container">
+      <div class="main_title">
+         <h2> Blogs </h2>
+         <p>Some of our frequently occured events snaps. <br /> A road to make others Happy.</p>
+      </div>
+
+      <!--================End Home Banner Area =================-->
+      <!--================Blog Card Area =================-->
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/fund_nature.jpg" alt="Card image cap">
+                  <button class="date">25 Aug </button>
+                  <div class="card-body">
+                     <h4 class="card-title">Raise fund for Mother<br> Nature</h4>
+                     <hr>
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+
+                  </div>
+               </div>
+            </div>
+
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/tree_plantation.jpg" alt="Card image cap">
+                  <button class="date">25 Aug </button>
+                  <div class="card-body">
+                     <h4 class="card-title">Raise fund for Tree <br>Plantation</h4>
+                     <hr>
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+
+                  </div>
+               </div>
+            </div>
+
+
+
+
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/slide1.jpg" alt="Card image cap">
+                  <button class="date">25 Aug </button>
+                  <div class="card-body">
+                     <h4 class="card-title">Raise fund for Saving Environment</h4>
+                     <hr>
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+
+
+      </div>
+      <!-- =============================== -->
+      <div class="container">
+         <div class="row mar1">
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/GlobalWarming.png" alt="Card image cap">
+                  <button class="date">25 Jun</button>
+                  <div class="card-body">
+                     <h4 class="card-title description">Raise fund for Global<br> Warming</h4>
+                     <hr>
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/water_conservation.jpg" alt="Card image cap">
+                  <button class="date">25 Jun</button>
+                  <div class="card-body">
+                     <h4 class="card-title">Raise fund for Water Conservation</h4>
+                     <hr>
+
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 card1">
+               <div class="card">
+                  <img class="card-img-top" src="../img/blog/card/preservation_glacier.jpg" alt="Card image cap">
+                  <button class="date">25 Jun</button>
+                  <div class="card-body">
+                     <h4 class="card-title">Raise fund for Saving <br>Glacier </h4>
+                     <hr>
+
+                     <span class="author">Author name</span>
+                     <span class="comment"><i class="fa fa-comments comment1" aria-hidden="true">Comments</i></span>
+                     <span><i class="fa fa-share-alt-square share" aria-hidden="true"></i></span>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+      </div>
+      <!--================Blog Area =================-->
+
+
+
+      <!-- ================================================================================== -->
+
+      
+        
+        <!--================ start footer Area  =================-->	
+        <footer class="footer-area section_gap">
+         <div class="container" style="color: #ada8a8;">
+             <div class="row">
+                 <div class="col-lg-6  col-md-6 col-sm-6">
+                     <div class="single-footer-widget">
+                  <img src=".././img/logo.png" style="max-width: 200px;">
+                         <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                     </div>
+                 </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                     <div class="single-footer-widget">
+                         <h6 class="footer_title">Navigation Links</h6>
+                         <div class="row">
+                             <div class="col-4">
+                                 <ul class="list">
+                                     <li><a href="index.php" style="color: #ada8a8;">Home</a></li>
+                           <li><a href="about-us.php" style="color: #ada8a8;">About</a></li>
+                           <li><a href="donation.php" style="color: #ada8a8;">Donation</a></li>
+                                 </ul>
+                             </div>
+                             <div class="col-4">
+                                 <ul class="list">
+                                     <li><a href="#" style="color: #ada8a8;">Blog</li>
+                                     <li><a href="contact.php" style="color: #ada8a8;">Contact</a></li>
+                                 </ul>
+                             </div>										
+                         </div>							
+                     </div>
+            </div>
+                 <div class="col-lg-3 col-md-6 col-sm-6">
+                     <div class="single-footer-widget instafeed">
+                         <h6 class="footer_title">Contact Us</h6>
+                         <p class="my-3">
+                     <i class="fa fa-map-marker"></i>	Delhi, India.
+                  </p>
+                  <a href="#"><i class="fa fa-facebook mx-2" style="font-size: 20px;"></i></a>
+                  <a href="#"><i class="fa fa-twitter mx-2" style="font-size: 20px;"></i></a>
+                  <a href="#"><i class="fa fa-linkedin mx-2" style="font-size: 20px;"></i></a>
+                  <a href="#"><i class="fa fa-instagram mx-2" style="font-size: 20px;"></i></a>
+                     </div>
+                 </div>						
+             </div>
+             <div class="border_line"></div>
+             <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                 <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. </p>
+             </div>
+         </div>
+     </footer>
+   <!--================ End footer Area  =================-->
+     
+     
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="../js/jquery-3.2.1.min.js"></script>
+      <script src="../js/popper.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/stellar.js"></script>
+      <script src="../vendors/lightbox/simpleLightbox.min.js"></script>
+      <script src="../vendors/isotope/imagesloaded.pkgd.min.js"></script>
+      <script src="../vendors/isotope/isotope-min.js"></script>
+      <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+      <script src="../js/jquery.ajaxchimp.min.js"></script>
+      <script src="../js/mail-script.js"></script>
+      <script src="../js/theme.js"></script>
+</body>
+
+</html>

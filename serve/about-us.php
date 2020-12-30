@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="./img/our-mission.jpg" type="image/x-icon">
+  <title>Nature_beauty</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../vendors/linericon/style.css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="../vendors/owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="../vendors/lightbox/simpleLightbox.css">
+  <link rel="stylesheet" href="../vendors/animate-css/animate.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+  <header class="header_area">
+
+    <div class="main_menu">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand logo_h" href="index.php"><img src="../img/logo.png" alt="logo" class="img-fluid"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+            <ul class="nav navbar-nav menu_nav ml-auto">
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li> 
+              <li class="nav-item active"><a class="nav-link" href="about-us.php">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="donation.php">Donation</a></li> 
+              <li class="nav-item submenu dropdown">
+                  <a href="blog.php" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
+                  <ul class="dropdown-menu">
+                      <li class="nav-item"><a class="nav-link" href="blog.php">Blog</a></li>
+                      <li class="nav-item"><a class="nav-link" href="single-blog.php">Blog Details</a></li>
+                  </ul>
+              </li> 
+
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--================Header Menu Area =================-->
+
+  <!--================Home Banner Area =================-->
+  <section class="home_banner_area">
+    <div class="banner_inner d-flex align-items-center">
+      <div class="overlay bg-parallax" data-stellar-ratio="0.9" data-stellar-vertical-offset="0" data-background="">
+      </div>
+      <div class="container">
+        <div class="banner_content text-center">
+          <h5>Raise Your Hands For Nature</h5>
+          <h3>Donate For Nature</h3>
+
+          <a class="main_btn" href="donation.php">Donate Now</a>
+          <a class="white_btn" href="#">View Activity</a>
+        </div>
+      </div>
+    </div>
+    <div class="donation_area">
+      <div class="container">
+        <div class="row donation_inner">
+          <div class="col-lg-4">
+            <div class="dontation_item yellow">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Total Donation</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisici elit. Illo.</p>
+                </div>
+                <div class="d-flex">
+                  <h3>$2.5M</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="dontation_item pink">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Volunteer Reached</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisici elit. Illo.</p>
+                </div>
+                <div class="d-flex">
+                  <h3>3268</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="dontation_item green">
+              <div class="media">
+                <div class="media-body">
+                  <h4>Happy Donators</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisici elit. Illo.</p>
+                </div>
+                <div class="d-flex">
+                  <h3>17000</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================End Home Banner Area =================-->
+
+  <!--================Welcome Area =================-->
+  <section id="welcome_area" class="welcome_area p_90">
+    <div class="container">
+      <div class="row welcome_inner">
+        <div class="col-lg-6">
+          <div class="welcome_text">
+            <h4>Welcome to Nature_beauty</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue nibh ac quam sollicitudin
+              sollicitudin. Praesent magna magna, tincidunt sed leo nec, vehicula auctor erat. Integer dolor mauris,
+              blandit vel diam a, consectetur iaculis turpis. Etiam convallis laoreet odio, in viverra est mollis et.
+              Curabitur fermentum magna id libero posuere, nec vestibulum diam feugiat. Praesent in ipsum quis augue
+              semper facilisis. Praesent eget pharetra ipsum. Aenean sed purus accumsan, efficitur metus tempor,
+              vestibulum dui. Cras in odio nunc. Fusce justo ligula, rhoncus ac eros et, aliquet ultrices lectus.
+              Pellentesque euismod eu </p>
+            <p class="mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue nibh ac quam
+              sollicitudin sollicitudin. Praesent magna magna, tincidunt sed leo nec, vehicula auctor erat. Integer
+              dolor mauris, blandit vel diam a, consectetur iaculis turpis. Etiam convallis laoreet odio, in viverra est
+              mollis et. Curabitur fermentum magna id libero posuere, nec vestibulum diam feugiat. Praesent in ipsum
+              quis augue semper facilisis. Praesent eget pharetra ipsum. Aenean sed purus accumsan, efficitur metus
+              tempor, vestibulum dui. Cras in odio nunc. </p>
+            <div class="row">
+              <div class="col-sm-4">
+                <div class="wel_item">
+                  <i class="lnr lnr-database"></i>
+                  <h4>$2.5M</h4>
+                  <p>Total Donation</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="wel_item">
+                  <i class="lnr lnr-book"></i>
+                  <h4>1465</h4>
+                  <p>Total Projects</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="wel_item">
+                  <i class="lnr lnr-users"></i>
+                  <h4>3965</h4>
+                  <p>Total Volunteers</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="welcome_img">
+            <img class="img-fluid" src="../img/welcome-banner.png" alt="welcome-banner">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================End Welcome Area =================-->
+
+  <!--================Mission Area =================-->
+  <section id="mission_area" class="welcome_area p_90">
+    <div class="container">
+      <div class="row welcome_inner">
+        <div class="col-lg-6">
+          <div class="welcome_text">
+            <h4>Our Mission</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue nibh ac quam sollicitudin
+              sollicitudin. Praesent magna magna, tincidunt sed leo nec, vehicula auctor erat. Integer dolor mauris,
+              blandit vel diam a, consectetur iaculis turpis. Etiam convallis laoreet odio, in viverra est mollis et.
+              Curabitur fermentum magna id libero posuere, nec vestibulum diam feugiat. Praesent in ipsum quis augue
+              semper facilisis. Praesent eget pharetra ipsum. Aenean sed purus accumsan, efficitur metus tempor,
+              vestibulum dui. Cras in odio nunc. Fusce justo ligula, rhoncus ac eros et, aliquet ultrices lectus.
+              Pellentesque euismod eu </p>
+            <p class="mb-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus congue nibh ac quam
+              sollicitudin sollicitudin. Praesent magna magna, tincidunt sed leo nec, vehicula auctor erat. Integer
+              dolor mauris, blandit vel diam a, consectetur iaculis turpis. Etiam convallis laoreet odio, in viverra est
+              mollis et. Curabitur fermentum magna id libero posuere, nec vestibulum diam feugiat. Praesent in ipsum
+              quis augue semper facilisis. Praesent eget pharetra ipsum. Aenean sed purus accumsan, efficitur metus
+              tempor, vestibulum dui. Cras in odio nunc. </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="welcome_img">
+            <img class="img-fluid" src="../img/our-mission.jpg" alt="our-mission">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--================End Mission Area =================-->
+
+        
+        <!--================ start footer Area  =================-->	
+        <footer class="footer-area section_gap">
+          <div class="container" style="color: #ada8a8;">
+              <div class="row">
+                  <div class="col-lg-6  col-md-6 col-sm-6">
+                      <div class="single-footer-widget">
+                          <img src=".././img/logo.png" style="max-width: 200px;">
+                          <p>The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point </p>
+                      </div>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="single-footer-widget">
+                          <h6 class="footer_title">Navigation Links</h6>
+                          <div class="row">
+                              <div class="col-4">
+                                  <ul class="list">
+                                      <li><a href="index.php" style="color: #ada8a8;">Home</a></li>
+                  <li><a href="about-us.php" style="color: #ada8a8;">About</a></li>
+                  <li><a href="donation.php" style="color: #ada8a8;">Donation</a></li>
+                                  </ul>
+                              </div>
+                              <div class="col-4">
+                                  <ul class="list">
+                                      <li><a href="#" style="color: #ada8a8;">Blog</li>
+                                      <li><a href="contact.php" style="color: #ada8a8;">Contact</a></li>
+                                  </ul>
+                              </div>										
+                          </div>							
+                      </div>
+        </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <div class="single-footer-widget instafeed">
+                          <h6 class="footer_title">Contact Us</h6>
+                          <p class="my-3">
+              <i class="fa fa-map-marker"></i>	Delhi, India.
+            </p>
+            <a href="#"><i class="fa fa-facebook mx-2" style="font-size: 20px;"></i></a>
+            <a href="#"><i class="fa fa-twitter mx-2" style="font-size: 20px;"></i></a>
+            <a href="#"><i class="fa fa-linkedin mx-2" style="font-size: 20px;"></i></a>
+            <a href="#"><i class="fa fa-instagram mx-2" style="font-size: 20px;"></i></a>
+                      </div>
+                  </div>						
+              </div>
+              <div class="border_line"></div>
+              <div class="row footer-bottom d-flex justify-content-between align-items-center">
+                  <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved. </p>
+              </div>
+          </div>
+      </footer>
+  <!--================ End footer Area  =================-->
+      
+      
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../js/jquery-3.2.1.min.js"></script>
+  <script src="../js/popper.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <script src="../js/stellar.js"></script>
+  <script src="../vendors/lightbox/simpleLightbox.min.js"></script>
+  <script src="../vendors/isotope/imagesloaded.pkgd.min.js"></script>
+  <script src="../vendors/isotope/isotope-min.js"></script>
+  <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="../js/jquery.ajaxchimp.min.js"></script>
+  <script src="../js/easing.min.js"></script>
+  <script src="../js/mail-script.js"></script>
+  <script src="../js/theme.js"></script>
+</body>
+
+</html>

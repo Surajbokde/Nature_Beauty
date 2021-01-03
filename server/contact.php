@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
     <!-- main css -->
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/responsive.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.css">
 </head>
 
 <body>
@@ -225,9 +225,10 @@ if (isset($_POST['submit'])) {
     <script src="../js/jquery.form.js"></script>
     <script src="../js/jquery.validate.min.js"></script>
     <script src="../js/contact.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
     <?php if(isset($message)){?>
     <script>
-        alert('<?php echo $message; ?>');
+        $.alert('<?php echo $message; ?>');
     </script>
     <?php } ?>
 </body>

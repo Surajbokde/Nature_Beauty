@@ -1,10 +1,15 @@
-/*
-@media (max-width:1525px){
-	.testimonials_area .owl-prev, .testimonials_area .owl-next {
-		right: 0px; 
-	}
-}
-*/
+body::-webkit-scrollbar {
+	width: 5px;
+  }
+   
+  body::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+	background-color: rgba(8, 255, 173, 0.808);
+	outline: 1px solid rgb(3, 255, 179);
+  }
 @media (max-width:1199px){
 	/* Main Menu Area css
 	============================================================================================ */
@@ -294,7 +299,7 @@
 		padding-right: 0px;
 	}
 	.main_title h2 {
-		font-size: 25px;
+		font-size: 35px;
 	}
 	/* Elements Area css
 	============================================================================================ */

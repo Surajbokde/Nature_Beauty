@@ -112,11 +112,17 @@ button:focus {
 }
 
 .main_title h2 {
-  font-size: 36px;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  color: #222222;
-  margin-bottom: 15px;
+  text-align: center;
+  position: relative;
+  font-family: 'Headland One', serif;
+  color: #2ecc71;
+  font-size: 50px;
+  font-weight: 900;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .main_title p {
@@ -139,6 +145,11 @@ button:focus {
   font-weight: 700;
   color: rgb(4, 255, 213);
   margin-bottom: 15px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .white_title p {
@@ -206,6 +217,7 @@ button:focus {
 }
 
 @media (min-width: 992px) {
+  
   .header_area .navbar .nav .nav-item.submenu ul {
     position: absolute;
     top: 120%;
@@ -800,10 +812,17 @@ button:focus {
 }
 
 .welcome_text h4 {
-  color: #222222;
+  color: #05ff8a;
+  text-align: center;
   font-family: "Poppins", sans-serif;
   font-size: 36px;
-  margin-bottom: 18px;
+  font-weight: 600;
+  margin-bottom: 28px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .welcome_text p {
@@ -821,6 +840,7 @@ button:focus {
 .wel_item {
   border: 2px solid #eeeeee;
   padding: 30px 24px;
+  border-radius: 10px;
   transition: border 0.3s ease-in-out 0s;
 }
 
@@ -1250,10 +1270,16 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .causes_item {
   background: #fff;
+  border-radius: 20px;
 }
 
 .causes_item .causes_img {
   position: relative;
+  border-radius: 20px;
+}
+.causes_item .causes_img img{
+  position: relative;
+  border-radius: 20px;
 }
 
 .causes_item .causes_img .c_parcent {
@@ -1286,8 +1312,11 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .causes_item .causes_text {
   height: 15rem;
-  overflow: scroll;
+  
   padding: 30px 35px 40px 30px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  
 }
 
 .causes_item .causes_text h4 {
@@ -1313,6 +1342,8 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .causes_item .causes_bottom a {
   width: 50%;
+  margin-top: 3px;
+  border-radius: 12px;
   border: 1px solid #27c9c6;
   text-align: center;
   float: left;
@@ -2338,6 +2369,9 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
 .volunteer-form-wraper h2 {
     margin-bottom: 12px;
+    background: -webkit-linear-gradient(rgb(0, 255, 128), rgba(255, 255, 255, 0.418));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .volunteer-form-wraper h2 {
@@ -2418,7 +2452,7 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
     height: 55px;
     background-color: transparent;
     outline: none;
-    padding: 0 20px;
+    
     position: relative;
 }
 
@@ -2658,14 +2692,20 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 .testimonials_inner .testi_left_text h4 {
   font-size: 36px;
   color: #222222;
-  font-weight: 600;
+  font-weight: 700;
   padding-right: 20px;
   margin-bottom: 20px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction:alternate-reverse;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .testimonials_inner .testi_left_text p {
   color: #777777;
   line-height: 24px;
+  
   font-size: 14px;
 }
 
@@ -2690,6 +2730,7 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .testi_item {
+  
   background: #fff;
   text-align: center;
 }
@@ -2701,9 +2742,10 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 }
 
 .testi_item p {
+  font-family: 'Caveat', cursive;
   line-height: 24px;
   color: #777777;
-  font-family: "Poppins", sans-serif;
+  
   margin-bottom: 30px;
 }
 
@@ -2716,6 +2758,7 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   -webkit-transition: all 300ms linear 0s;
   -o-transition: all 300ms linear 0s;
   transition: all 300ms linear 0s;
+  
 }
 
 .testi_item h4:hover {

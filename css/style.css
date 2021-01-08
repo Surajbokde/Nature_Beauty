@@ -973,40 +973,26 @@ box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
 
  .card{
   position:relative;
-  width: 320px;
-  height: 440px;
+  
   box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
               inset -5px -5px 15px rgba(255,255,255,0.1),
               5px 5px 15px rgba(0,0,0,0.3),
               -5px -5px 15px rgba(255,255,255,0.1);
   border-radius:15px;
-  margin: 5px;
+  margin-bottom: 30px;
 }
-@media (min-width: 770px){
-.card{
-  position:relative;
-  width: 320px;
-  height: 340px;
-  box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
-              inset -5px -5px 15px rgba(255,255,255,0.1),
-              5px 5px 15px rgba(0,0,0,0.3),
-              -5px -5px 15px rgba(255,255,255,0.1);
-  border-radius:15px;
-  margin: 5px;
-}
-}
+
 @media (max-width: 770px){
  .card{
   position:relative;
-  width: 320px;
-  height: 440px;
+  
   box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
               inset -5px -5px 15px rgba(255,255,255,0.1),
               5px 5px 15px rgba(0,0,0,0.3),
               -5px -5px 15px rgba(255,255,255,0.1);
   border-radius:15px;
-  margin: 5px;
-  margin-left: 40px;
+  
+  
 }
 }
 .card .dn_item{
@@ -4617,10 +4603,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* ===================================Card==================================== */
 
-.Card-image{
-  width:50px;
-  height: 50px;;
-}
+
 
 /* Contact Success and error Area css
 ============================================================================================ */
@@ -4667,12 +4650,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* ----------------------Blog_Card---------------------------------- */
 
-.card1{
-  background-color:rgb(248, 244, 244);
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(19, 0, 0, 0.2), 0 6px 20px 0 rgba(14, 0, 0, 0.19);
-
-}
 .card-title{
 font-size: 16px;
     line-height: 24px;
@@ -4686,18 +4663,9 @@ font-size: 16px;
   padding:10px;
   margin: 41px;
 }
-/* .blog-cards{
-  margin: 10px;
-} */
-.Card-image{
-  width:300px;
-  height:auto;
-  align-content: center;
-}
-.mar1{
-  margin-top: 20px;
-  margin-bottom: 50px;
-}
+
+
+
 .author{
   text-align: center;
 }
@@ -4716,7 +4684,9 @@ font-size: 16px;
   border: none;
   font-family: cursive;
 }
-
+.card-img-top{
+  border-radius: 15px;
+}
 .card-title{
   text-align:left;
   
@@ -4745,36 +4715,31 @@ font-size: 16px;
 ============================================================================================ */
 /*---------------------------------------------------- */
 
-/*# sourceMappingURL=style.css.map */
+
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-  .Card-image { width:200px;
-    height:auto; } /* your css rules for ipad portrait */
+  .card-img-top{
+    height: 30px;
+  }
 }
 
-
-
-
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-  .Card-image { width:200px;
-    height:auto; } /* your css rules for ipad landscape */
-}
 
 
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
  .author{
    font-size: 10px;
-  margin-right:110px;
-   
-
+  
  }
-
+ .comment{
+    margin: 0px;
+    padding:3px;
+ }
   
 }
 @media only screen and (device-width: 360px){
   .comment{
-   
-     padding:3px;
+    margin: 0px;
+    padding:3px;
   }
 
   
